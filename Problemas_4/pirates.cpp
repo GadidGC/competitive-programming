@@ -14,7 +14,7 @@ int main(){
             string p;
             cin >> p;
             for(int x=0;x<;x++){
-
+                
             }
         }
     }

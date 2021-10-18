@@ -18,11 +18,11 @@ int main(){
         if (piece == "r"){
             cout << min(m,n) <<endl;
         }else if(piece == "k"){
-            cout << int(ceil(m/2) * ceil(m/2) + ((m/2)*(n/2)))<<endl;
+            cout << ceil(m/2) * ceil(n/2) + (floor(m/2)*floor(n/2))<<endl;
         }else if(piece == "Q"){
             cout << min(m,n)<<endl;
         }else if(piece == "K"){
-            cout << ceil(m/2) * ceil(m/2)<<endl;
+            cout << ceil(m/2) * ceil(n/2)<<endl;
 
         }
         

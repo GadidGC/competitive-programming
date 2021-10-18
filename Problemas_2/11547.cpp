@@ -11,8 +11,5 @@ int main(){
         cout << temp[temp.length()-2] <<endl;
     }
 
-
-
-
     return 0;
 }

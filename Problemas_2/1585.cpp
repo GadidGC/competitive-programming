@@ -22,7 +22,5 @@ int main(){
         cout<<suma<<endl;
     }
 
-
-
     return 0;
 }
